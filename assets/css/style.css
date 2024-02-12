@@ -253,6 +253,12 @@ footer a {
 }
 
 @media  screen and (min-width: 768px) {
+
+    body{
+        font-size: 1.6em;
+        line-height: 1.8em;
+    }
+
     header div img, header div p, header div, header nav{
         display: inline-block;
         margin: 0;
@@ -277,6 +283,10 @@ footer a {
         text-align: end;
     }
 
+    article ul{
+        line-height: 2em;
+    }
+
     iframe{
         width: 49.5%;
         height: 200px;
@@ -288,6 +298,7 @@ footer a {
         display: inline-block;
         height: 200px;
         vertical-align: top;
+        border-radius: 20px;
     }
 
     input {
@@ -316,10 +327,14 @@ footer a {
 
 }
 
-@media  screen and (min-width: 992) {
+@media  screen and (min-width: 992px) {
     header, main, footer{
         width: 90vw;
         margin: 30px auto;
+    }
+    
+    header div{
+        width: 50vw;
     }
 }
 
