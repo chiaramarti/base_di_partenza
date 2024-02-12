@@ -316,9 +316,23 @@ footer a {
 
 }
 
-@media  screen and (min-width: 768px) {
+@media  screen and (min-width: 992) {
     header, main, footer{
         width: 90vw;
         margin: 30px auto;
+    }
+}
+
+@media print {
+    header, iframe, section, aside, footer{
+        display: none;
+    }
+
+    body{
+        background-image: none;
+    }
+    
+    main{
+        margin: none;
     }
 }
