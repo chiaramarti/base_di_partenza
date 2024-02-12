@@ -314,10 +314,12 @@ footer a {
     aside div{
         display: inline-block;
         width:33%;
+        margin-right: -5px;
     }
 
     aside{
         width:100%;
+        margin-right: 8px;
     }
 
     address{
